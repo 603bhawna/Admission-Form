@@ -1,0 +1,66 @@
+#div1
+{
+    font
+}
+#div2
+{
+    border: 5px outset;
+    width:56%;
+    margin:auto;
+    padding: 40px;
+    font-size: 13pt;
+}
+select,input[type=text],input[type=email]
+{
+    width: 95%;
+    border:0px groove;
+    border-radius: 4px;
+    padding:13px;
+    margin:2px;
+    font-size: 16px;
+    background-color: rgb(240, 240, 248);
+}
+input:hover{
+    background-color: azure;
+    box-shadow: 4px 4px 4px 3px gray;
+    transition: 2s;
+}
+select
+{
+    width: 99%;
+    border:0px;
+    border-radius: 4px;
+    padding:13px;
+    background-color: rgb(240, 240, 248);
+}
+select:hover
+{
+    background-color: azure;
+}
+textarea
+{
+    background-color: rgb(240, 240, 248);
+    width: 96%;
+    border:0px;
+    border-radius: 4px;
+    padding:13px;
+}
+
+textarea:hover{
+    background-color: azure;
+    box-shadow: 4px 4px 4px 3px gray;
+    transition: 2s;
+}
+input[type=submit]
+{
+    width: 100%;
+    border:1px solid grey;
+    border-radius: 4px;
+    padding:15px;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-size: 17px;
+}
+input[type=submit]:hover{
+    background-color:limegreen;    
+}
